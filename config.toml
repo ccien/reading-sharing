@@ -51,22 +51,22 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Changjian Chen"
+  role = "phD of Visual analytics"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Tsinghua University", url = "http://www.tsinghua.edu.cn/" } ]
 
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "https://s.gravatar.com/avatar/30f1140e393e207d0993da6a82af1148?s=80"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "chencjgene@gmail.com"
   address = "10-406, East Building, Tsinghua University, Beijing, China"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  office_hours = ""
   phone = "888 888 88 88"
-  skype = "echo123"
+  skype = ""
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
