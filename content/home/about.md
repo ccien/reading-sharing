@@ -25,4 +25,6 @@ weight = 5
 
 # Biography
 
-I am a ph.D.
+Hi, I am a Ph.D. candidate at vis group, [School of Software](http://www.thss.tsinghua.edu.cn/), [Tsinghua University](http://www.tsinghua.edu.cn). My supervisor is [Prof. Shixia Liu](http://www.shixialiu.com/). My research interest is learning-from-crowds and interactive machine learing. 
+
+Before joing Tsinghua, I got my B.S. degree in electronic engineering at [University of Science and Technology of China](https://www.ustc.edu.cn/) in 2017.
