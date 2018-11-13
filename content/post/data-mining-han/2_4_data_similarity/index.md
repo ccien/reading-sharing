@@ -1,3 +1,35 @@
++++
+title = "2_4_data_similarity"
+date = 2018-11-11T18:57:18+08:00
+draft = false
+
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = []
+
+# Tags and categories
+# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+tags = []
+categories = []
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["deep-learning"]` references 
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+# projects = ["internal-project"]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
++++
+
 ### 2.4 Measuring Data Similarity and Dissimilarity
 
 Dada similarity is critical for many data mining applications, such as clustering,  outlier analysis, and nearest-neighobr classification.
@@ -57,11 +89,11 @@ Bothe *Euclidean distance* and *Manhattan distance* satisfy **Symmetry**, **Iden
 
 The values of an ordinal attribute have a meanful ranking, but the *magnitude between successive values is unknown.* For example, size attribute (small, medium, large)
 
-*first*, mapping ordinal attribute to numeric attribute:
+*first*, mapping ordinal attribute to numeric attribute (***why minus 1?***):
 $$
-z_{if} = \frac{r_{if}-1}{M_f-1}
+z\_{if} = \frac{r\_{if}-1}{M\_f-1}
 $$
-Where $f$ is an ordinal attribute, $M_f$ is the maximum ranking value, $r_{if}$ is the ranking values of object $i$.
+Where $f$ is an ordinal attribute, $M\_f$ is the maximum ranking value, $r\_{if}$ is the ranking values of object $i$.
 
 ##### 5. Mixed data types
 
@@ -70,4 +102,5 @@ Where $f$ is an ordinal attribute, $M_f$ is the maximum ranking value, $r_{if}$ 
 ![](images/2.4.7.jpg)
 
 ---
+
 
